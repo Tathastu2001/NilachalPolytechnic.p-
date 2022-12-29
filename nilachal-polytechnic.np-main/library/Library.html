@@ -1,0 +1,76 @@
+<html>
+<head>
+ <title>Welcome To LIBRARY</title>
+        <link rel="icon" href="logo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="topnav.css">
+	<link rel="stylesheet" href="sidenav.css">
+</head>
+<body>
+    	<!--side nav bar-->
+<div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  
+	<a href="https://b766-p.github.io/nilachal-polytechnic.np/">Home</a>
+	<a href="https://b766-p.github.io/nilachal-polytechnic.np/ABOUT%20US/about.html">Aboutus </a>
+	<a href="https://b766-p.github.io/nilachal-polytechnic.np/library/Library.html">library</a>
+	<a href="#">Academic</a>
+	<a href="#">alumini</a>
+	<a href="https://b766-p.github.io/nilachal-polytechnic.np/Gallery/Gallery.html">gallery</a>
+	<a href="#">22 year journey</a>
+	<a href="https://b766-p.github.io/nilachal-polytechnic.np/Contact%20Us/contact%20us.html">Contact us</a>
+  </div>
+  
+	<!--top nav bar-->
+	  <div class="di"id="di">
+	  <span style="font-size:30px;cursor:pointer" onclick="openNav()" >&#9776; Menu</span>
+	  
+   <ul>
+	  <li> <a href="https://b766-p.github.io/nilachal-polytechnic.np/">Home</a></li>
+	   <li><a  class="activa"href="https://b766-p.github.io/nilachal-polytechnic.np/library/Library.html">Library</a></li>
+		   <li><a href="#">Student zone</a></li>
+			   <li> <a href="https://b766-p.github.io/nilachal-polytechnic.np/Contact%20Us/contact%20us.html">Contact us</a></li>
+				   <li><a href="https://b766-p.github.io/nilachal-polytechnic.np/ABOUT%20US/Facilities.html">Facilities</a></li>
+				   <li><a  href="https://b766-p.github.io/nilachal-polytechnic.np/ABOUT%20US/about.html" href="javascript:void(0)"id="abotus">About us</a></li>
+				   <li><a href="#">Alumini</a></li>
+			 <img src="logo.jpeg"class="logo">      
+   </ul>
+   </div>
+<header>
+    <div class="title">
+        <h1>WELCOME TO LIBRARY</h1>
+    </div>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <div class="button">
+        <a href="nilachalpolytechnic.html" class="btn">COLLEGE LIBRARY</a>
+        <a href="Library2.html" class="btn">CENTRAL LIBRARY</a>  
+    </div>
+    </header>
+    <!--this is for the side nav bar script--> 
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+    <!--top nav bar script-->
+    <script>
+      window.onscroll = function() {myFunction()};
+      
+      var navbar = document.getElementById("di");
+      var sticky = navbar.offsetTop;
+      
+      function myFunction() {
+        if (window.pageYOffset  >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+      </script>
+    </body>
+</html>

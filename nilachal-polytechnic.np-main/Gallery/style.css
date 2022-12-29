@@ -1,0 +1,50 @@
+ header{
+ 
+ font-family: 'Times New Roman', cursive;
+ font-size: 30px;
+ padding: 20px;
+ }
+ main{
+       margin-left: 105px;
+       height: 55vh;
+         width: 100%;
+         margin-top: 40px;
+ }
+ .box{
+  width: 20%;
+  float: left;
+  padding: 7px;
+  padding-left: 10px;  
+  display: block;
+ 
+ }
+ 
+ img{
+  width: 100%;
+     border-radius: 4px;
+ 
+ }
+ 
+ img:hover{
+   transform: scale(1.3,1.3);
+   transition: .3s transform;
+ 
+ }
+ .gallery
+{
+  height: 30vh;
+  width: 100%;
+  background-color: tomato;
+  position: relative;
+  top: 6vh;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(0,0,0,0.5)), url(gal.jpg);
+}
+.gallery h6
+{
+ position: relative;
+ top: 11.5vh; 
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ text-align: center;
+ font-size: 6vh;
+ color:rgb(0, 17, 250);
+}

@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.gl{
+
+    height:110vh;
+    width: 100%;
+   color: black;
+   
+    position: absolute;
+}
+ 

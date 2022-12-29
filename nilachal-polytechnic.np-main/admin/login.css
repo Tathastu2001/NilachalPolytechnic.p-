@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.5ms;
+}
+.heroe
+{
+    height: 100% ;
+    width: 100%;
+    background-image: url(2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+
+}
+.form-box
+{
+    width: 380px ;
+    height: 550px;
+    position:relative ;
+    margin: 6% auto;
+    background: cornsilk;
+    padding: 5px;
+    border-radius: 30px;
+    background:transparent ;
+}
+.logo{
+    position: relative;
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   position:absolute;
+   left: 120px;
+    height: 150px;
+    width:150px;
+    border: #999 solid;
+    border-radius: 61%;
+    background: transparent;
+}
+.gill
+{
+    top: 160px;
+    position: absolute;;
+    right:50px;   
+    width: 280px;
+    transition: 0.5s;
+}
+.BI
+{
+    text-align: center;
+    padding: right 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   font-size: 130%;
+    font-family: cursive;
+}
+.dr{
+    position: relative;
+   padding: 15px;
+   padding-left: 10px;
+   font-size: 15px;
+   bottom: 15px;
+   
+    border-left: 0;
+   border-top: 0;
+   border-right: 0;
+   border-bottom: 1px solid #999;
+   outline: none;
+    background:transparent;
+}
+.di{
+    font-size: 140%;
+
+}
+.submit-btn
+{
+    margin: 0;
+    position: absolute;
+    left: 60px;
+    top: 260px;
+    width: 55%;
+    padding: 10px 30px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    background: linear-gradient(to right,#ff105f, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px; 
+}

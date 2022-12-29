@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nilachal Polytechnic</title>
+  <link rel="icon" href="logo.jpg" type="image/x-icon">
+       <link rel="stylesheet" href="topnav.css">
+       <link rel="stylesheet" href="sidenav.css">
+       <link rel="stylesheet"  tpe="text/css" href="style.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+  	<!--side nav bar-->
+<div id="mySidenav" class="sidenav">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  
+	<a href="https://b766-p.github.io/nilachal-polytechnic.np/">Home</a>
+	<a href="https://b766-p.github.io/nilachal-polytechnic.np/ABOUT%20US/about.html">Aboutus </a>
+	<a href="https://b766-p.github.io/nilachal-polytechnic.np/library/Library.html">library</a>
+	<a href="#">Academic</a>
+	<a href="#">alumini</a>
+	<a href="https://b766-p.github.io/nilachal-polytechnic.np/Gallery/Gallery.html">gallery</a>
+	<a href="#">22 year journey</a>
+	<a href="https://b766-p.github.io/nilachal-polytechnic.np/Contact%20Us/contact%20us.html">Contact us</a>
+  </div>
+  
+	<!--top nav bar-->
+	  <div class="di"id="di">
+	  <span style="font-size:30px;cursor:pointer" onclick="openNav()" >&#9776; Menu</span>
+	  
+   <ul>
+	  <li> <a href="https://b766-p.github.io/nilachal-polytechnic.np/">Home</a></li>
+	   <li><a href="https://b766-p.github.io/nilachal-polytechnic.np/library/Library.html">Library</a></li>
+		   <li><a href="#">Student zone</a></li>
+			   <li> <a href="https://b766-p.github.io/nilachal-polytechnic.np/Contact%20Us/contact%20us.html">Contact us</a></li>
+				   <li><a href="https://b766-p.github.io/nilachal-polytechnic.np/ABOUT%20US/Facilities.html">Facilities</a></li>
+				   <li><a  href="https://b766-p.github.io/nilachal-polytechnic.np/ABOUT%20US/about.html" href="javascript:void(0)"id="abotus">About us</a></li>
+				   <li><a href="#">Alumini</a></li>
+			 <img src="logo.jpeg"class="logo">      
+   </ul>
+   </div>
+    <div class="gallery">
+    <h6>Home/ Gallery/ NP Gallery</h6> 
+    </div>
+    <main>
+    <div class="box">
+    <img src="1.jpg" height="300" width="350"></div>
+    <div class="box">
+    <img src="2.jpg" height="300" width="350"></div>
+    <div class="box">
+    <img src="3.jpg" height="300" width="350"></div>
+    <div class="box">
+    <img src="4.jpg" height="300" width="350"></div>
+    <div class="box">
+    <img src="5.jpg" height="300" width="350"></div>
+    <div class="box">
+    <img src="6.jpg" height="300" width="350"></div>
+    <div class="box">
+    <img src="7.jpg" height="300" width="350"></div>
+    <div class="box">
+    <img src="8.jpg" height="300" width="350"></div>
+    <div class="box">
+    <img src="9.jpg" height="300" width="350"></div>
+    <div class="box">
+    <img src="10.jpg" height="300" width="350"></div>
+    <div class="box">
+    <img src="11.jpg" height="300" width="350"></div>
+    <div class="box">
+    <img src="12.jpg" height="300" width="350"></div>
+    </main>
+   
+    <!--this is for the side nav bar script--> 
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+    <!--top nav bar script-->
+    <script>
+      window.onscroll = function() {myFunction()};
+      
+      var navbar = document.getElementById("di");
+      var sticky = navbar.offsetTop;
+      
+      function myFunction() {
+        if (window.pageYOffset  >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+      </script> 
+       
+</body>
+</html>

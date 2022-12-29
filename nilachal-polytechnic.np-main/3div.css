@@ -1,0 +1,103 @@
+*{
+margin:0;
+padding:0;
+}
+.hi
+{
+    height: 80%;
+    width: 100%;
+    background-color:whitesmoke;
+    overflow: hidden;
+}
+.admission
+{
+float: right;
+height: 69vh;
+width: 45vh;
+background:transparent;
+position:relative ;
+bottom:452.5px;
+right:2%;
+
+}
+.ad
+{
+    height: 32.5vh;
+    width: 45vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(ap.jpg);
+    background-size: cover;
+  
+}
+.ad h1
+{
+    text-align: center;
+    top: 60px;
+    position: relative;
+    color: floralwhite;
+
+}
+.a{
+    position: relative;
+    top: 120px;
+    left: 60px;
+}
+.a a
+{
+    
+    text-decoration:none;
+    color:blanchedalmond;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    background-color: darkred;
+    
+}
+.a a:hover
+{
+    background-color:white;
+    color: black;
+}
+
+.ada
+{
+    position: relative;
+    height: 32.5vh;
+    width: 45vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(a.jpg);
+    background-size: cover;
+    top:29px ;
+}
+.ada h1
+{
+    text-align: center;
+    top: 60px;
+    position: relative;
+    color: floralwhite;  
+}
+.ada p 
+{
+    text-align: center;
+    top: 70px;
+    position: relative;
+    color: floralwhite;
+
+}
+.b
+{
+    position: relative;
+    top: 110px;
+    left: 120px; 
+}
+.b a{
+    text-decoration:none;
+    color:blanchedalmond;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    background-color: darkred;
+}
+.b a:hover
+{
+    background-color:white;
+    color: black;
+}

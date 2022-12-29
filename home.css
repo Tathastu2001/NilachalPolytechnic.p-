@@ -1,0 +1,647 @@
+*{
+    margin:0;
+    padding:0;
+    }
+    
+.kp
+{
+height: 90%;
+width: 100%;
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(d.jpg);
+background-size: cover;
+}
+.k
+{
+    position: relative;
+    height: 480px;
+    width: 580px;
+    top: 50px;
+    left: 30px;
+    overflow: hidden;
+}
+.pl
+{
+    float: right;
+    padding-right: 350px;
+    padding-top: 5vh;
+    color: snow;
+
+}
+.pl h1
+{
+    top: 20px;
+}
+.pi
+{
+position: relative;
+height: 476px;
+width: 670px;
+float: right;
+
+bottom: 400px;
+overflow: hidden; 
+ 
+}
+.i 
+{
+  color:black;
+ background-color: transparent;
+
+}
+.i:hover
+{
+    color:snow ;
+    background-color: transparent;
+}
+.u
+{
+
+ float: right;
+  position: relative;
+  padding: 10px;
+  font-size: 15px;
+  bottom: 1px;
+  right: 10px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.6s;
+  color: aliceblue;
+  background-color: darkred;
+}
+.u:hover
+{
+    background-color:white;
+    color: black;
+}
+.plc
+{
+    height: 125vh;
+    width: 100%;
+    background-image: url(pleacement.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.ment
+{
+    text-align: center;
+    padding-left:90px;
+    padding-top: 40px;
+    color:darkred ;
+
+}
+.wow
+{
+    padding-left:580px;
+}
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    margin-left: 17px;
+    padding-left:10px ;
+    padding-top: 10px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  
+ 
+  .gl{
+
+    height: 110vh;
+    width: 100%;
+    color:white ;
+   background-color:white;
+    top: 380vh;
+    position: absolute;
+  }
+  .depa
+  {
+    height: 90vh;
+    width: 100%;
+    color: white;
+   background-color:white;
+    top: 500vh ;
+    position:absolute;
+  }
+  .dep
+  {
+    height: 550px;
+    width: 350px;
+    background-color: white;
+    position:relative;
+    left: 70px;
+    margin-left:20px ;
+    margin-top: 20px;
+    border: transparent;
+    box-shadow: 2px 13px 25px -10px rgba(0,0,0,0.75);
+
+  }
+  .pic{
+    height: 200;
+    width: 350px;
+    background-color: blue;
+    position: relative;
+
+
+  }
+  .tex
+  {
+    height: 350;
+    width: 350px;
+    background-color:whitesmoke;
+    position: relative;
+  }
+  .e
+{
+  color:black;
+ background-color: transparent;
+ padding-left: 10px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.f 
+{
+ 
+  padding-left: 40px;
+  position:relative;
+  padding-top: 10px;
+}
+.f h2
+{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 40px;
+}
+
+.mk
+{
+
+ float: center;
+  position: absolute;
+  padding: 10px;
+  font-size: 15px;
+  bottom: 38px;
+  cursor: pointer;
+  outline: transparent;
+  left: 120px;
+  border: transparent;
+  border-radius: 20px;
+  transition: 0.6s;
+  color: aliceblue;
+  background-color: black;
+}
+.mk:hover
+{
+    background-color:white;
+    color: black;
+    box-shadow: 0px 7px 21px -8px black;
+
+}
+
+.dpr
+  {
+    height: 200;
+    width: 350px;
+     position: relative;
+
+  }
+  .why
+  {
+    height: 140vh;
+    width: 100%;
+    color: white;
+    background-image: url(why.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+   background-color:violet;
+   top: 600vh;
+    position:absolute; 
+    margin-top: 10px;
+  }
+  .w
+  {
+   height: 30vh;
+   width: 1200px;
+   background-color:rgba(0,0,0,0.5) ;
+   position: relative;
+ 
+   box-shadow: whitesmoke;
+   border-radius: 5px;
+   top: 30px;
+   left: 40px;
+  }
+  .w h1
+  {
+    left: 30px;
+    top: 5px;
+    position: relative;
+    color: cornsilk;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
+  .h
+  {
+    left: 30px;
+    margin-right: 40px;
+    position: relative;
+    color: cornsilk;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .w:hover
+  {
+    box-shadow: 0px 7px 21px -8px whitesmoke;
+  }
+  .job
+  {
+    height: 50vh;
+    width: 1200px;
+    background-color:rgba(0,0,0,0.5) ;
+    position: relative;
+  
+    box-shadow: whitesmoke;
+    border-radius: 5px;
+    top: 10vh;
+    left: 40px;
+    
+  }
+  .job:hover{
+    box-shadow: 0px 7px 21px -8px whitesmoke;
+  }
+  .job h1
+  {
+    left: 30px;
+    top: 5px;
+    position: relative;
+    color: cornsilk;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .plus
+  {
+    height: 40vh;
+    width: 1200px;
+    background-color:rgba(0,0,0,0.5) ;
+    position: relative;
+
+    box-shadow: whitesmoke;
+    border-radius: 5px;
+    top: 14vh;
+    left: 40px;
+  }
+  .plus:hover
+  {
+    box-shadow: 0px 7px 21px -8px whitesmoke;
+  }
+  .plus h1{
+    left: 30px;
+    top: 5px;
+    position: relative;
+    color: cornsilk;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .links
+  {
+    height: 210vh;
+    width: 100%;
+    color: white;
+   background-color:white;
+    top:745vh ;
+    position:absolute; 
+    margin-top: 10px;
+    overflow: hidden;
+  }
+  .lib
+{
+  height: 550px;
+  width: 350px;
+  background-color: white;
+  position:relative;
+  left: 70px;
+  margin-left:20px ;
+  margin-top: 40px;
+  border: transparent;
+ 
+}
+  .hk
+{
+ 
+  padding-left: 110px;
+  position:relative;
+  padding-top: 10px;
+  color: black;
+}
+.hk h2
+{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 40px;
+
+}
+.cont
+{
+  height: 550px;
+  width: 350px;
+  background-color: white;
+  position:relative;
+  left: 490px;
+  margin-left:20px ;
+  margin-top: 20px;
+  bottom: 235px;
+  border: transparent;
+ 
+}
+.admi
+{
+  height: 550px;
+  width: 350px;
+  background-color: white;
+  position:relative;
+  float: right;
+  left: 0px;
+  margin-right:68px ;
+  margin-top: 40px;
+  bottom: 1150px ;
+  right: 20px;
+  border: transparent;
+  
+}
+.gall
+{
+  height: 550px;
+  width: 350px;
+  background-color: white;
+  position:relative;
+  left: 70px;
+  margin-left:20px ;
+  margin-top: 40px;
+  bottom: 470px ;
+  border: transparent;
+  
+}
+.stude
+{
+  height: 550px;
+  width: 350px;
+  background-color: white;
+  position:relative;
+  float: right;
+
+ 
+  margin-right:68px ;
+  margin-top: 40px;
+  bottom: 1060px ;
+  border: transparent;
+  
+}
+.stude:hover{
+  box-shadow: 2px 13px 25px -10px rgba(0,0,0,0.75);
+}
+.gall:hover{
+  box-shadow: 2px 13px 25px -10px rgba(0,0,0,0.75);
+}
+.admi:hover{
+  box-shadow: 2px 13px 25px -10px rgba(0,0,0,0.75);
+}
+.cont:hover{
+  box-shadow: 2px 13px 25px -10px rgba(0,0,0,0.75);
+}
+.lib:hover{
+  box-shadow: 2px 13px 25px -10px rgba(0,0,0,0.75);
+}
+.footer{
+  height: 55vh;
+    width: 100%;
+    color: white;
+   background-color:yellow;
+    top:955vh ;
+    position:absolute; 
+    margin-top: 10px;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(campus.jpg);
+    background-size: cover;
+    flex: 2px;
+}
+.instagram{
+  float: right;
+  height: 60px;
+  width: 60px;
+  bottom: 31px;
+  position: relative;
+  padding: 5px;
+  right: 30px;
+}
+.about
+{
+  height: 50vh;
+ width: 450px;
+
+overflow: hidden;
+}
+.about h1
+{
+  font-size:26px ;
+  left: 20px;
+  position: relative;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  top: 10px;
+}
+.about hr{
+  height: 0%;
+  width: 0%;
+ border: transparent;
+}
+.about:hover
+ hr
+{
+width: 140px;
+margin-left: 17px;
+margin-top: 10px;
+height: 5px;
+background-color:white;
+border: transparent;
+
+}
+.about .e{
+  color:whitesmoke;
+ background-color: transparent;
+ padding-left: 10px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+
+}
+.add{
+  height: 50vh;
+  width: 450px;
+  position: relative;
+  left: 450px;
+  bottom: 50vh;
+ 
+}
+.add h1
+{
+  font-size:26px ;
+  left: 20px;
+  position: relative;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  top: 10px;
+}
+.add hr{
+  height: 0%;
+  width: 0%;
+ border: transparent;
+}
+.add:hover
+ hr
+{
+width: 160px;
+margin-left: 17px;
+margin-top: 10px;
+height: 5px;
+background-color:white;
+border: transparent;
+}
+.l
+{
+  
+    float: left; 
+    padding: 20px;
+    padding-bottom: 8px;
+    position:relative;
+    padding-top: 1vh;
+
+}
+.l h2{
+
+    font-size: 40px;
+    color:whitesmoke;
+}
+.l  b
+{
+  font-size: 20px;
+    color:whitesmoke;
+}
+.form
+{
+  height: 50vh;
+  width: 402px;
+  position: relative;
+  float: right;
+  bottom: 100vh;
+
+}
+.ll{
+  top: 60px;
+  position: absolute;;
+  right:50px;   
+  width: 280px;
+  transition: 0.5s;
+}
+.kn{
+  text-align: left;
+    
+    display: block;
+   font-size: 130%;
+    font-family: cursive;
+}
+.r{
+  position: relative;
+   padding: 15px;
+   padding-left: 10px;
+   font-size: 15px;
+   bottom: 15px;
+   
+    border-left: 0;
+   border-top: 0;
+   border-right: 0;
+   border-bottom: 1px solid whitesmoke;
+   
+   outline: none;
+    background:transparent;
+}
+.submit-btn
+{
+    margin: 0;
+    position: absolute;
+    left: 60px;
+    top: 180px;
+    width: 55%;
+    padding: 10px 30px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    background: linear-gradient(to right,#ff105f, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px; 
+}
+::placeholder {
+    color:whitesmoke;
+    opacity: 0.8; 
+  }
+  
+  :-ms-input-placeholder { 
+   color:whitesmoke;
+  }
+  
+  ::-ms-input-placeholder { 
+   color: whitesmoke;
+  }
+  .space
+  {
+    height: 550px;
+    width: -12px;
+    background-color: white;
+    position:relative;
+    left: 70px;
+    margin-left:1px ;
+    margin-top: 20px;
+    border: transparent;
+  }
+  .dep1
+  {
+    height: 550px;
+    width: 350px;
+    background-color: white;
+    position:relative;
+    left: 70px;
+    margin-left:210px ;
+    margin-top: 20px;
+    border: transparent;
+    box-shadow: 2px 13px 25px -10px rgba(0,0,0,0.75);
+  }
